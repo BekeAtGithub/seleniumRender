@@ -15,6 +15,11 @@ This script extracts **department performance data** and **employee performance 
 | **LlamaIndex (Llama Agent)** | Uses OpenAI LLM to process extracted data |
 | **OpenAI API** | Provides AI-powered analysis capabilities |
 | **JSON** | Stores extracted and processed data in structured format |
+| **CSS Selector** | Is run by the selenium-css-selector.py file |
+| **XPATH** | Is run by the selenium-xpath.py file
+
+- **CSS Selector:** A **pattern-based selector** used to find elements in HTML by matching class names, IDs, attributes, or element types, making it **faster and more readable** but **less flexible** for complex structures.  
+- **XPath:** A **tree-based path query language** used to navigate through the entire DOM structure, allowing for **advanced selection** based on relationships (parent, child, sibling), but it **can be slower** than CSS selectors.|
 
 ---
 
@@ -22,7 +27,8 @@ This script extracts **department performance data** and **employee performance 
 ```
 project-folder/
 │── edgedriver_win64/        # Edge WebDriver (msedgedriver.exe)
-│── selenium_forest.py       # Main Python script
+│── selenium-css-selector.py # CSS selector script
+│── selenium-xpath.py        # xpath script
 │── analytics_data.json      # Extracted output data
 │── README.md                # Documentation
 │── venv/                    # Python virtual environment
@@ -74,7 +80,7 @@ export OPENAI_API_KEY=your-api-key  # Mac/Linux
 2. **Update the class names** in `selenium_forest.py` to match your website’s structure.  
 3. **Run the script**:
    ```sh
-   python selenium_forest.py
+   python selenium-css-selector.py // OR selenium-xpath.py
    ```
 4. **Check the output in `analytics_data.json`**.
 
