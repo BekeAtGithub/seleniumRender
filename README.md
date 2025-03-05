@@ -1,3 +1,6 @@
+
+![alt text]([https://github.com/BekeAtGithub/seleniumRender/blob/main/seleniumRender.jpg])
+
 ## **📌 Purpose**
 This script extracts **department performance data** and **employee performance data** from a **JavaScript-rendered website**. It then **processes the data using LlamaIndex with OpenAI** and saves the structured output in **JSON format**.
 
