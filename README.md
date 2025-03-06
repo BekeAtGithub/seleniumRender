@@ -88,10 +88,17 @@ export OPENAI_API_KEY=your-api-key  # Mac/Linux
 
 ## **🔧 Sources Used**
 https://learn.microsoft.com/en-us/microsoft-edge/webdriver-chromium/?tabs=c-sharp 
+
 https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/?form=MA13LH
+
 https://www.selenium.dev/documentation/webdriver/
+
 https://selenium-python.readthedocs.io/
+
 https://www.scrapingbee.com/blog/python-web-scraping-beautiful-soup/?utm_source=chatgpt.com#parsing-the-html-with-beautiful-soup
+
 https://www.geeksforgeeks.org/implementing-web-scraping-python-beautiful-soup/?utm_source=chatgpt.com
+
 https://www.w3schools.com/xml/xpath_intro.asp#:~:text=Learn%20how%20to%20use%20%EE%80%80XPath%EE%80%81%20to%20navigate%20and
+
 https://docs.llamaindex.ai/en/stable/getting_started/starter_example/
