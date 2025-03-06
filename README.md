@@ -97,6 +97,10 @@ https://selenium-python.readthedocs.io/
 
 https://www.scrapingbee.com/blog/python-web-scraping-beautiful-soup/?utm_source=chatgpt.com#parsing-the-html-with-beautiful-soup
 
+https://platform.openai.com/docs/guides/function-calling
+
+https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/
+
 https://www.geeksforgeeks.org/implementing-web-scraping-python-beautiful-soup/?utm_source=chatgpt.com
 
 https://www.w3schools.com/xml/xpath_intro.asp#:~:text=Learn%20how%20to%20use%20%EE%80%80XPath%EE%80%81%20to%20navigate%20and
