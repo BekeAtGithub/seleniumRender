@@ -51,7 +51,7 @@ if len(departments) == 0:
     print(f"Found {len(iframes)} iframes on the page.")
 
     if len(iframes) > 0:
-        print("🛠 Attempting to switch to the first iframe...")
+        print("Attempting to switch to the first iframe...")
         driver.switch_to.frame(iframes[0])  # Switch to the first iframe
         time.sleep(3)  # Wait for iframe content to load
 
